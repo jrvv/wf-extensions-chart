@@ -14,7 +14,7 @@
         /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
       var regexMDY =
         /^(0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])[\/\-]\d{4}$/;
-
+      //solved issue
       var formatType = null;
 
       var toCompareFormat = expectedDateFormat.toLowerCase();
